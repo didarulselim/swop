@@ -39,6 +39,20 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endCo
     margin-bottom: 20px;
 }
 
+.card {
+   /* box-shadow: 10px 10px 5px grey;*/
+    /* box-shadow: -10px 10px 10px #536def; */
+}
+.card:hover {
+    /*box-shadow: 10px 10px 10px #7d73fe;*/
+    box-shadow: 10px 10px 5px rgb(132,109,254); 
+    background: rgb(132,109,254);
+background: -moz-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: -webkit-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endColorstr="#42a7fe",GradientType=1);
+    color: #ffffff;
+}
 .service {
 
 }
@@ -86,8 +100,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endCo
 }
 
 .team .card img {
-    padding: 50px;
-    margin-bottom: -25px;
+    /*padding: 50px;
+    margin-bottom: -25px;*/
+    width: 120px;
+    margin: 25px auto 10px auto;
+    height: 120px;
 }
 
 .footer {
@@ -138,8 +155,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endCo
 }
 
 @media (min-width: 320px) and ( max-width: 768px) {
-   .home .hpn {
-        display: none;
+   .home {
+        height: auto !important;
     }
 
     .service .card img, .product .card img {
