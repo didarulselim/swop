@@ -33,6 +33,7 @@ body {
 .down-logo img {
 	height: 50px;
 	margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .service {
@@ -72,6 +73,9 @@ body {
 .footer {
 
 }
+.footer-logo img {
+    margin-bottom: 30px;
+}
 
 /*.c-footer, .p-footer, .t-footer {
     bottom: 0px;
@@ -97,6 +101,9 @@ body {
     height: 35px;
 }
 
+.footer .social-media-logo {
+    margin-bottom: 30px;
+}
 
 .contact .card img {
    margin: auto;
@@ -104,4 +111,11 @@ body {
     height: 100px;
     padding: 20px;
     margin-bottom: -25px;
+}
+
+@media (min-width: 320px) and ( max-width: 768px) {
+   .home .hpn {
+        display: none;
+    }
+
 }
