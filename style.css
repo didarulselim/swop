@@ -6,8 +6,11 @@ body {
 
 }
 .navbar {
-    background: url(./images/home-bg.png) center no-repeat;
-    background-size: cover;
+    background: rgb(132,109,254);
+background: -moz-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: -webkit-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endColorstr="#42a7fe",GradientType=1);
 }
 .home {
 	background: url(./images/home-bg.png) center no-repeat;
@@ -42,24 +45,41 @@ body {
 .heading {
 
 }
-.service .card {
+.service .card, .product .card {
 	padding: 30px;
 	margin-bottom: 25px;
 }
-.service .card img {
+.service .card img, .product .card img {
     width: 100px;
     margin: auto;
 }
 
-.story, .footer {
+.product {
+    /*background: url(./images/home-bg.png) center no-repeat;
+    background-size: cover;*/
+    background: rgb(132,109,254);
+background: -moz-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: -webkit-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endColorstr="#42a7fe",GradientType=1);
+}
+
+/*.story, .footer {
 	background: url(./images/footer-bg.png) center no-repeat;
     background-size: cover;
     
-}
+}*/
 .story .card {
     margin-bottom: 20px;
 }
 
+.team {
+    background: rgb(132,109,254);
+background: -moz-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: -webkit-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endColorstr="#42a7fe",GradientType=1);
+}
 .team .card {
 	margin-bottom: 25px;
 	border: none;
@@ -71,7 +91,11 @@ body {
 }
 
 .footer {
-
+    background: rgb(132,109,254);
+background: -moz-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: -webkit-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endColorstr="#42a7fe",GradientType=1);
 }
 .footer-logo img {
     margin-bottom: 30px;
@@ -93,15 +117,15 @@ body {
     color: #FFFFFF;
 }
 
-.footer .down-logo img {
+.down-logo img {
     margin-bottom: 10px;
 }
-.footer .social-media-logo img {
+ .social-media-logo img {
     width: 35px;
     height: 35px;
 }
 
-.footer .social-media-logo {
+.social-media-logo {
     margin-bottom: 30px;
 }
 
@@ -118,4 +142,15 @@ body {
         display: none;
     }
 
+    .service .card img, .product .card img {
+    width: 70px;
+    margin: auto;
 }
+
+}
+
+background: rgb(132,109,254);
+background: -moz-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: -webkit-linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+background: linear-gradient(173deg, rgba(132,109,254,1) 0%, rgba(66,167,254,0.9948354341736695) 100%, rgba(66,167,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endColorstr="#42a7fe",GradientType=1);
