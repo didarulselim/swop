@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+
+}
+.navbar {
+    background: url(./images/home-bg.png) center no-repeat;
+    background-size: cover;
+}
+.home {
+	background: url(./images/home-bg.png) center no-repeat;
+    background-size: cover;
+   height: 625px;
+}
+.home {
+    margin-top: 55px;
+    padding: 50px;
+}
+
+.home img.hpn {
+    height: 350px;
+    margin-left: 30px;
+}
+.home h1 {
+    width: 80%
+}
+.home p {
+	text-align: justify;
+    padding: 10px 0px;
+}
+.down-logo img {
+	height: 50px;
+	margin-right: 10px;
+}
+
+.service {
+
+}
+.heading {
+
+}
+.service .card {
+	padding: 30px;
+	margin-bottom: 25px;
+}
+.service .card img {
+    width: 100px;
+    margin: auto;
+}
+
+.story, .footer {
+	background: url(./images/footer-bg.png) center no-repeat;
+    background-size: cover;
+    
+}
+.story .card {
+    margin-bottom: 20px;
+}
+
+.team .card {
+	margin-bottom: 25px;
+	border: none;
+}
+
+.team .card img {
+    padding: 50px;
+    margin-bottom: -25px;
+}
+
+.footer {
+
+}
+
+/*.c-footer, .p-footer, .t-footer {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}*/
+.footer-menu {
+    padding-left: 0px;
+}
+.footer-menu li {
+     list-style: none;
+}
+.footer-menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer .down-logo img {
+    margin-bottom: 10px;
+}
+.footer .social-media-logo img {
+    width: 35px;
+    height: 35px;
+}
+
+
+.contact .card img {
+   margin: auto;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin-bottom: -25px;
+}
