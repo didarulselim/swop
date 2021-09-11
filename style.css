@@ -93,7 +93,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#846dfe",endCo
   margin-bottom: 20px;
 }
 .video-contant {
-  padding-top: 5px;
+  padding-top: 0px;
 }
 .video-contant h1 {
   padding-bottom: 20px;
@@ -104,7 +104,7 @@ padding: 0;
 .video-contant ul li {
   list-style: none;
   font-size: 25px;
-  padding-bottom:  40px;
+  padding-bottom:  25px;
 }
 .video-contant ul li span {
   background-color: #000;
