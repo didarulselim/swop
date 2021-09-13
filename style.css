@@ -337,6 +337,9 @@ padding: 0;
 .video-contant ul li {
   font-size: 20px;
 }
+.video-contant ul li span {
+  padding: 10px 16px;
+}
 .navbar-toggler:focus {
   box-shadow: none;
 }
