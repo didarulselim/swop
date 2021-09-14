@@ -265,6 +265,9 @@ padding: 0;
 .footer {
     background-image: linear-gradient(to right, #8a50fe ,#7c60fe, #4f96fe ,#2fbefe);
 }
+.footer-logo {
+  margin-right: 0 ;
+}
 .footer-logo img {
     margin-bottom: 30px;
 }
