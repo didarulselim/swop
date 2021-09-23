@@ -16,7 +16,7 @@ p {
 .home {
 	background: url(./images/home-bg.png) center no-repeat;
     background-size: cover;
-   height: 700px;
+   height: 980px;
     margin-top: 55px;
     padding: 50px;
 
@@ -24,15 +24,15 @@ p {
 
 
 .home img.hpn {
-    height: 450px;
-    margin-left: 30px;
+  
+
 }
 .home .heading {
-  padding: 50px 30px;
+  padding: 14%  30px;
 }
 .home .heading h1 {
-    width: ;
-    font-size:50px;
+    
+    font-size:45px;
 }
 .home .heading p {
   text-align: justify;
@@ -308,6 +308,10 @@ padding: 0;
     margin-bottom: -25px;
 }
 
+@media (min-width: 769px) and (max-width: 1400px) {
+  
+}
+
 @media (min-width: 320px) and ( max-width: 768px) {
    .home {
         height: auto !important;
@@ -320,6 +324,7 @@ padding: 0;
 }
 .home .heading {
   padding: 20px 20px 65px;
+  text-align: left;
 }
 .home .heading h1 {
     font-size: 35px;
